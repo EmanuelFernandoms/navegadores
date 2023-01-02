@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+
+body{
+    font-family: "montserrat";
+    background-color: aliceblue;
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    position: sticky;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+
+
+a.active, .opcoes:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+}
+
+
+.imagem_pr{
+    background: url("imagens/melhores-navegadores-.png");
+    position: relative;
+    height: 600px;
+    background-size: cover;
+}
+
+.color-overlay{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.786), rgba(0, 0, 0, 0.09));
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+
+#titulo{
+    font-size: 50px;
+    position:absolute;
+    bottom: 80px;
+    left: 80px;
+    color: rgb(201, 201, 201);
+    text-transform: uppercase;
+}
+
+#responsavel{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+}
+
+.subtitulo_texto{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(28, 28, 28);
+}
+
+.texto_introducao{
+    text-align: justify;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+p{
+    font-size: 22px;
+}
+
+
+.link_chrome{
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.link_chrome img{
+    width: 180px;
+}
+
+.link_chrome2{
+    display: inline-block;
+    padding-left: 30px;
+    position: absolute;
+}
+
+.link_chrome2 a{
+    color: black;
+}
+
+.link_chrome2 a:hover{
+    color: #0082e6;
+}
+
+.link_chrome2 p{
+    color: grey;
+}
+
+.titulo-seguranca{
+    padding-top: 80px;
+}
+
+.subtitulo-seguranca{
+    color: grey;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.icone-do-titulo{
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.titulo-com-icone{
+    display: inline-block;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.titulo-navegador{
+    background-color: rgb(238, 238, 238);
+    height: 260px;
+}
+.titulo-navegador img{
+    width: 180px;
+}
+
+.ilustracao img{
+    width:500px;
+    padding-left: 30%;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+@media (max-width: 500px){
+    .texto_introducao{
+        text-align: justify;
+        margin: auto;
+        padding: 25px 5px 100px 5px;
+    }
+    label.logo{
+        padding: 0 0 0 10px;
+        font-size: 25px;
+    }
+    .checkbtn{
+        font-size: 25px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: block;
+    }
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
